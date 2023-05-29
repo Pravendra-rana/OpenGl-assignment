@@ -1,0 +1,18 @@
+﻿  CreateLine.cpp
+D:\OpenGL\AssignmentLine\src\CreateLine.cpp(209,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL\AssignmentLine\src\CreateLine.cpp(210,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+CreateLine.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+CreateLine.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+CreateLine.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "void __cdecl mouseButtonCallback(struct GLFWwindow *,int,int,int)" (?mouseButtonCallback@@YAXPEAUGLFWwindow@@HHH@Z)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+CreateLine.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+CreateLine.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+D:\OpenGL\AssignmentLine\common\lib\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\OpenGL\AssignmentLine\common\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\OpenGL\AssignmentLine\x64\Debug\AssignmentLine.exe : fatal error LNK1120: 12 unresolved externals

@@ -1,0 +1,5 @@
+﻿  CreateLine.cpp
+D:\C++ learning\OpenGL assignment\AssignmentLine\src\CreateLine.cpp(64,14): warning C4101: 'vbo2': unreferenced local variable
+D:\C++ learning\OpenGL assignment\AssignmentLine\src\CreateLine.cpp(239,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\C++ learning\OpenGL assignment\AssignmentLine\src\CreateLine.cpp(240,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  AssignmentLine.vcxproj -> D:\C++ learning\OpenGL assignment\AssignmentLine\Debug\AssignmentLine.exe
