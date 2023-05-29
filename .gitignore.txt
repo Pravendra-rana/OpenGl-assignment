@@ -1,0 +1,11 @@
+*.o
+
+*.exe
+
+*.tlog
+
+*.ilk
+
+*.idb
+
+*.pdb
