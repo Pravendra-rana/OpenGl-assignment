@@ -1,0 +1,2 @@
+D:\OpenGL\Assignment1Triangle\Debug\Assignment1Triangle.exe
+D:\C++ learning\OpenGL assignment\Assignment1Triangle\Assignment1Triangle\Debug\Assignment1Triangle.exe

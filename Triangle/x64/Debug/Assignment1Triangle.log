@@ -1,0 +1,40 @@
+﻿Traingle.obj : error LNK2019: unresolved external symbol glewInit referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Traingle.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl glfw_onKey(struct GLFWwindow *,int,int,int,int)" (?glfw_onKey@@YAXPEAUGLFWwindow@@HHHH@Z)
+Traingle.obj : error LNK2019: unresolved external symbol glfwSetWindowTitle referenced in function "void __cdecl showFPS(struct GLFWwindow *)" (?showFPS@@YAXPEAUGLFWwindow@@@Z)
+Traingle.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Traingle.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl showFPS(struct GLFWwindow *)" (?showFPS@@YAXPEAUGLFWwindow@@@Z)
+Traingle.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Traingle.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Traingle.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+Traingle.obj : error LNK2001: unresolved external symbol __glewBufferData
+Traingle.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
+Traingle.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+Traingle.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Traingle.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Traingle.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Traingle.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Traingle.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+Traingle.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Traingle.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+Traingle.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Traingle.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Traingle.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Traingle.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Traingle.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Traingle.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Traingle.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Traingle.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+Traingle.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+Traingle.obj : error LNK2001: unresolved external symbol __glewDeleteVertexArrays
+Traingle.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+Traingle.obj : error LNK2001: unresolved external symbol glewExperimental
+D:\OpenGL\common\lib\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\OpenGL\common\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\OpenGL\Assignment1Triangle\x64\Debug\Assignment1Triangle.exe : fatal error LNK1120: 37 unresolved externals
